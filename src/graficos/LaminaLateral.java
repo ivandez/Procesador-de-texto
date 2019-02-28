@@ -50,7 +50,7 @@ public class LaminaLateral extends JPanel{
 		tamagnoSelec.setText(texto);
 	}
 
-	 JLabel fuenteSelec;
+	private JLabel fuenteSelec;
 	
 	private JLabel estiloSelec;
 	
