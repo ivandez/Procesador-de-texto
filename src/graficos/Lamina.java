@@ -142,14 +142,14 @@ public class Lamina extends JPanel{
 				
 				if(menu=="Arial") {
 					
-					//fuenteSelec.setText("Fuente: Arial");
+					
 					menuLateral.setFuenteSelec("Fuente: Arial");
 					
 				}
 				
 				else if(menu=="Verdana") {
 					
-					//fuenteSelec.setText("Fuente: Verdana");
+					
 					
 					menuLateral.setFuenteSelec("Fuente: Verdana");
 					
@@ -157,7 +157,7 @@ public class Lamina extends JPanel{
 
 				else if(menu=="Courier") {
 	
-					//fuenteSelec.setText("Fuente: Courier");
+					
 				}
 				
 				menuLateral.setFuenteSelec("Fuente: Courier");
@@ -179,13 +179,13 @@ public class Lamina extends JPanel{
 				
 				if(menu=="Cursiva") {
 					
-					//estiloSelec.setText("Estilo: Cursiva");
+					
 					menuLateral.setEstiloSelec("Estilo: Cursiva");
 				}
 				
 				else if(menu=="Negrita") {
 					
-					//estiloSelec.setText("Estilo: Negrita");
+					
 					menuLateral.setEstiloSelec("Estilo: Negrita");
 				}
 				
@@ -200,37 +200,37 @@ public class Lamina extends JPanel{
 				
 				if(menu=="12") {
 					
-					//tamagnoSelec.setText("Tamaño: 12");
+					
 					menuLateral.setTamagnoSelec("Tamaño: 12");
 				}
 				
 				else if(menu=="14") {
 					
-					//tamagnoSelec.setText("Tamaño: 14");
+					
 					menuLateral.setTamagnoSelec("Tamaño: 14");
 				}
 				
 				else if(menu=="16") {
 					
-					//tamagnoSelec.setText("Tamaño: 16");
+				
 					menuLateral.setTamagnoSelec("Tamaño: 16");
 				}
 				
 				else if(menu=="18") {
 					
-					//tamagnoSelec.setText("Tamaño: 18");
+					
 					menuLateral.setTamagnoSelec("Tamaño: 18");
 				}
 				
 				else if(menu=="20") {
 					
-					//tamagnoSelec.setText("Tamaño: 20");
+					
 					menuLateral.setTamagnoSelec("Tamaño: 20");
 				}
 				
 				else if(menu=="24") {
 					
-					//tamagnoSelec.setText("Tamaño: 24");
+					
 					menuLateral.setTamagnoSelec("Tamaño: 24");
 				}
 				
