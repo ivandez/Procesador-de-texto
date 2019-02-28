@@ -11,19 +11,13 @@ public class LaminaLateral extends JPanel{
 		setBackground(new Color(250,247,179));
 		
 		setLayout(new GridLayout(3, 3));
-		
-//		fuenteSelec=new JLabel("Fuente: Arial"); //hacer que el parametro se conecto con la clase lamina
-//		
-//		estiloSelec=new JLabel("Estilo: Plano");
-//		
-//		tamagnoSelec=new JLabel("Tamaño: 12");
-//		
-		
-		fuenteSelec=new JLabel(fuenteSelecionada); //hacer que el parametro se conecto con la clase lamina
+
+		fuenteSelec=new JLabel(fuenteSelecionada);
 		
 		estiloSelec=new JLabel(estiloSelecionado);
 		
 		tamagnoSelec=new JLabel(tamagnoSelecionado);
+		
 		add(fuenteSelec);
 		
 		add(estiloSelec);
@@ -44,16 +38,16 @@ public class LaminaLateral extends JPanel{
 		return estiloSelec;
 	}
 
-	protected void setEstiloSelec(JLabel estiloSelec) {
-		this.estiloSelec = estiloSelec;
+	protected void setEstiloSelec(String texto) {
+		estiloSelec.setText(texto);
 	}
 
 	protected JLabel getTamagnoSelec() {
 		return tamagnoSelec;
 	}
 
-	protected void setTamagnoSelec(JLabel tamagnoSelec) {
-		this.tamagnoSelec = tamagnoSelec;
+	protected void setTamagnoSelec(String texto) {
+		tamagnoSelec.setText(texto);
 	}
 
 	 JLabel fuenteSelec;
