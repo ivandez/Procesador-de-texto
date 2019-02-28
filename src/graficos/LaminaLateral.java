@@ -25,7 +25,7 @@ public class LaminaLateral extends JPanel{
 		add(tamagnoSelec);
 	}
 	
-	 public JLabel getFuenteSelec() {
+	  JLabel getFuenteSelec() {
 		return fuenteSelec;
 	}
 
@@ -52,7 +52,7 @@ public class LaminaLateral extends JPanel{
 
 	 JLabel fuenteSelec;
 	
-	 JLabel estiloSelec;
+	private JLabel estiloSelec;
 	
-	 JLabel tamagnoSelec;
+	private JLabel tamagnoSelec;
 }
