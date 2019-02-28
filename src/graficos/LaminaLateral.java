@@ -25,28 +25,28 @@ public class LaminaLateral extends JPanel{
 		add(tamagnoSelec);
 	}
 	
-	  JLabel getFuenteSelec() {
+	 protected JLabel getFuenteSelec() {
 		return fuenteSelec;
 	}
 
-	public void setFuenteSelec(String texto) {
+	 protected void setFuenteSelec(String texto) {
 
 		fuenteSelec.setText(texto);
 	}
 
-	protected JLabel getEstiloSelec() {
+	 protected JLabel getEstiloSelec() {
 		return estiloSelec;
 	}
 
-	protected void setEstiloSelec(String texto) {
+	 protected void setEstiloSelec(String texto) {
 		estiloSelec.setText(texto);
 	}
 
-	protected JLabel getTamagnoSelec() {
+	 protected JLabel getTamagnoSelec() {
 		return tamagnoSelec;
 	}
 
-	protected void setTamagnoSelec(String texto) {
+	 protected void setTamagnoSelec(String texto) {
 		tamagnoSelec.setText(texto);
 	}
 

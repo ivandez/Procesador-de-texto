@@ -157,10 +157,10 @@ public class Lamina extends JPanel{
 
 				else if(menu=="Courier") {
 	
-					
+					menuLateral.setFuenteSelec("Fuente: Courier");
 				}
 				
-				menuLateral.setFuenteSelec("Fuente: Courier");
+				
 								
 							
 			}
