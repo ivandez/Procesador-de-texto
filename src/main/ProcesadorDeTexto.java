@@ -13,5 +13,5 @@ public class ProcesadorDeTexto {
 
 }
 
-/* Creado por Iván Méndez para el curso de Java desde 0 y con la guia de Juan del canal pildorasinformaticas
+/* Creado por Iván Méndez para el curso de Java desde 0 del canal pildorasinformaticas
   https://www.youtube.com/channel/UCdulIs-x_xrRd1ezwJZR9ww*/ 
