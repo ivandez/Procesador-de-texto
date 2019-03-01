@@ -2,7 +2,7 @@ package main;
 
 import graficos.*;
 
-public class ClasePrincipal {
+public class ProcesadorDeTexto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
